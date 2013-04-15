@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="60dp" >
+
+    <ImageView
+        android:id="@+id/category_favorite"
+        android:scaleType="centerInside"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:src="@drawable/join" />
+
+    <TextView
+        android:id="@+id/file_picker_text"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/category_favorite"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="middle"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:text="Item" />
+    
+    <TextView
+        android:id="@+id/category_desc"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/file_picker_text"
+        android:layout_toLeftOf="@id/category_favorite"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="middle"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:singleLine="true"
+        android:text="Item" />
+
+</RelativeLayout>

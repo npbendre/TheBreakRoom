@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BreakRoom</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_group_list">GroupListActivity</string>
+    <string name="title_activity_add_group">AddGroupActivity</string>
+
+    <string-array name="order_options">
+        <item>Catering</item>
+        <item>Dine In</item>
+        <item>Take Out</item>
+    </string-array>
+    
+</resources>
